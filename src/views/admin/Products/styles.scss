@@ -1,0 +1,48 @@
+.table-image-contact {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #808080;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-name-letter{
+    font-size: 20px;
+    color: #808080;
+}
+
+.list-image-contact {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #808080;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button-fixed-mobile{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding: 7px;
+    bottom: 0;
+    right: 0 !important;
+    z-index: 999;
+}
+
+.rounded-button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

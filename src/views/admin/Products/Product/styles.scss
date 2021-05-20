@@ -1,0 +1,39 @@
+#contact-image{
+    color: transparent;
+}
+
+.table-image-contact {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #808080;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.user-profile-preview-image {
+    position: relative;
+
+    img {
+        width: 70px;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+.user-profile-preview-image-delete {
+    position: absolute;
+    right: 1px;
+    background-color: #ff0000a4;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
